@@ -1,0 +1,5 @@
+*.pth
+.DS_Store
+data/
+wandb/
+lightning_logs/
