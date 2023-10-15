@@ -240,7 +240,7 @@ if __name__ == '__main__':
         }
     )
 
-    for t in range(21, epochs+21):
+    for t in range(1, epochs+1):
         metrics = {}
         train_metrics = train(train_loader, model, loss_fn, optimizer, t)
         val_metrics = validate(val_loader, model, loss_fn)
